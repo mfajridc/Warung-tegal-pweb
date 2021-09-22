@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 24px;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(26, 42, 56);
+  color: #fff;
+  padding: 24px 32px 0px 32px;
+}
+header h1 {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+  padding: 24px 0;
+  gap: 48px;
+  list-style: none;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.courses {
+  display: flex;
+}
+.article {
+  padding: 24px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  border-right: 1px solid black;
+  max-width: 1200px;
+}
+figure {
+  padding: 24px;
+}
+figure img {
+  width: 240px;
+  margin-bottom: 12px;
+}
+figure figcaption {
+  margin-left: 56px;
+}
+article {
+  display: flex;
+}
+.desc {
+  padding: 0px 24px;
+}
+.desc p {
+  font-size: 12px;
+}
+.desc hgroup h3 {
+  color: #555;
+  margin-bottom: 13px;
+}
+aside {
+  padding: 24px 24px;
+  min-width: 300px;
+}
+.popular-recipes a {
+  display: block;
+  padding: 8px 0;
+  text-decoration: none;
+  list-style: none;
+  color: #333;
+  border-bottom: 1px solid black;
+}
+.popular-recipes {
+  margin-bottom: 24px;
+}
+footer {
+  text-align: center;
+  background-color: rgb(40, 64, 100);
+  padding: 24px;
+  color: white;
+}
+@media screen and (max-width: 659px) {
+  header h1 {
+    font-size: 32px;
+  }
+  figure img {
+    width: 150px;
+  }
+  aside {
+    display: none;
+  }
+}
